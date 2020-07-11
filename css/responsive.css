@@ -1,0 +1,236 @@
+/*
+Responsive Utilites Style (This css is removed from beta version)
+*/
+
+.hidden-xs-up {
+    display: none !important;
+}
+
+@media (max-width: 575px) {
+    .hidden-xs-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .hidden-sm-up {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-sm-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .hidden-md-up {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .hidden-md-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .hidden-lg-up {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .hidden-lg-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden-xl-up {
+        display: none !important;
+    }
+}
+
+.hidden-xl-down {
+    display: none !important;
+}
+
+.visible-print-block {
+    display: none !important;
+}
+
+/*--------------------------------*/
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1500px) {}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #block01b .logo {
+
+        width: 175px;
+    }
+
+
+
+
+}
+
+/* xs */
+
+@media (max-width: 769px) {
+
+    #block01b .logo {
+
+        width: 120px;
+        top: 25%;
+    }
+
+    .icons8-facebook {
+        width: 30px;
+        height: auto;
+    }
+
+    .icons8-facebook:hover {
+        width: 30px;
+        height: auto;
+    }
+
+    .icons8-instagram {
+        width: 30px;
+        height: auto;
+    }
+
+    .icons8-instagram:hover {
+        width: 30px;
+        height: auto;
+    }
+
+    .icons8-twitter {
+
+        width: 30px;
+        height: auto;
+    }
+
+    .icons8-twitter:hover {
+        width: 30px;
+        height: auto;
+    }
+
+    #block01b .overlay nav {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /*sucursales*/
+
+
+    section#sucursales div.carousel {
+
+        width: 700px;
+        height: 500px;
+
+    }
+
+    #block02c .caption_outer {
+        /* display: none;*/
+    }
+
+    .carousel-item__info {
+        width: 60%;
+    }
+
+    .carousel-item__title {
+
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+
+    section#acerca-de img {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 414px) {
+    #block01b .logo {
+
+        width: 100px;
+        top: 40%;
+    }
+
+    .icons8-facebook {
+        display: none;
+    }
+
+    .icons8-instagram {
+        display: none;
+    }
+
+    .icons8-twitter {
+
+        display: none;
+    }
+
+
+    #block01b .overlay nav {
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    #block02c .caption_inner {
+        position: relative;
+        height: 0%;
+        width: 85;
+        float: right;
+    }
+
+    #block02c .responsive-slider .slides ul li .slide-body .caption.subheader h1 {
+
+        font-size: 14px;
+
+    }
+
+    /*sucursales*/
+    .carousel-item__image {
+        display: none;
+    }
+
+    section#sucursales div.carousel {
+
+        width: 300px;
+        height: 500px;
+
+    }
+
+    #block02c .caption_outer {
+        /* display: none;*/
+    }
+
+    .carousel-item__info {
+        width: 100%;
+    }
+
+    .carousel-item__title {
+
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+
+    section#acerca-de img {
+
+        display: none;
+    }
+
+}
